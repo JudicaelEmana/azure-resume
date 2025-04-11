@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Project 1</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <link rel="shortcut icon" href="favicon.png" />
+    <link rel="stylesheet" href="css/default.css" />
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/media-queries.css" />
+    <style>
+      body {
+        padding: 20px;
+        margin: 0;
+        background-color: #f9f9f9;
+      }
+
+      .project-content {
+        max-width: 800px;
+        margin: 0 auto;
+        background-color: #fff;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+      }
+
+      h2 {
+        text-align: center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <section id="project">
+      <!-- Back button at the top -->
+      <div class="back-button">
+        <a href="index.html#project" class="button">⬅️ Retour aux Projets</a>
+      </div>
+
+      <!-- Project Details -->
+      <div class="project-content">
+        <h2 style="margin-top: 20px">Mise en place d'un réseau local sécurisé avec portail captif (pfSense) et authentification centralisée</h2>
+
+        <p style="margin: 20px 0"><strong>Conception et déploiement d'une infrastructure réseau sécurisée</strong> pour une entreprise de 150 utilisateurs, combinant un portail captif (pfSense) pour le contrôle d'accès et une authentification centralisée via Windows Server 2012 R2. L'objectif : garantir un accès Wi-Fi/Guest sécurisé tout en simplifiant la gestion des identités. 
+          Ce réseau sécurisé a réduit les tentatives d'intrusion de 70% et permis un contrôle granulaire des accès, tout en offrant une expérience utilisateur transparente grâce à l'intégration AD.</p>
+
+        <h3 style="margin-top: 20px">Points clés:</h3>
+        <ul style="margin: 10px 0; padding-left: 20px">
+          <li>🔐 Authentification unique (SSO) via Active Directory (Windows Server 2012 R2)</li>
+          <li>🌐 Portail captif personnalisé (pfSense) pour les invités et employés</li>
+          <li>⚡ Filtrage des accès par groupes AD (marketing, RH, direction)</li>
+          <li>📡 Isolation des réseaux (VLANs pour invités/employés/équipements IoT)</li>
+        </ul>
+
+        <div style="text-align: center; margin: 20px 0">
+          <img
+            src="./images/application-vlan.jpg"
+            alt="Project Image"
+            style="width: 300px; height: auto"
+          />
+          <p style="font-style: italic; margin-top: 5px; text-align: center">
+            Image liée au projet
+          </p>
+        </div>
+
+        <h3 style="margin-top: 20px">Défis rencontrés:</h3>
+        <ul style="margin: 10px 0; padding-left: 20px">
+          <li>🛠️ Compatibilité pfSense/Windows Server 2012 R2 (NPS Radius)</li>
+          <li>🔌 Gestion des interruptions pendant le déploiement</li>
+          <li>👥 Formation des utilisateurs au nouveau portail captif</li>
+        </ul>
+
+        <h3 style="margin-top: 20px">Axes d'amélioration:</h3>
+        <ul style="margin: 10px 0; padding-left: 20px">
+          <li>📊 Journalisation avancée avec ELK Stack pour le monitoring</li>
+          <li>🤖 Automatisation des règles de filtrage via scripts PowerShell</li>
+          <li>🛡️ Migration vers Windows Server 2022 pour une sécurité renforcée</li>
+        </ul>
+
+        <h3 style="margin-top: 20px">Compétences demontrées:</h3>
+        <ul style="margin: 10px 0; padding-left: 20px">
+          <li>✅ pfSense</li>
+          <li>✅ Windows Server 2012 R2</li>
+          <li>✅ NPS (Radius)</li>
+          <li>✅ VLAN</li>
+          <li>✅ Réseau sécurisé</li>
+        </ul>
+
+        <!-- Back button at the bottom -->
+        <div class="back-button">
+          <a href="index.html#project" class="button">⬅️ Retour aux Projets</a>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

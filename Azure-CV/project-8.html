@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Project 1</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <link rel="shortcut icon" href="favicon.png" />
+    <link rel="stylesheet" href="css/default.css" />
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/media-queries.css" />
+    <style>
+      body {
+        padding: 20px;
+        margin: 0;
+        background-color: #f9f9f9;
+      }
+
+      .project-content {
+        max-width: 800px;
+        margin: 0 auto;
+        background-color: #fff;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+      }
+
+      h2 {
+        text-align: center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <section id="project">
+      <!-- Back button at the top -->
+      <div class="back-button">
+        <a href="index.html#project" class="button">⬅️ Retour aux Projets</a>
+      </div>
+
+      <!-- Project Details -->
+      <div class="project-content">
+        <h2 style="margin-top: 20px">Virtualisation et Stockage Haute Disponibilité avec VMware vSphere et NAS Synology</h2>
+
+        <p style="margin: 20px 0"><strong>Déploiement d'une infrastructure virtualisée haute disponibilité</strong> pour une PME de 100 collaborateurs, combinant un cluster VMware vSphere et un NAS Synology comme stockage mutualisé. L'objectif : centraliser les données critiques, optimiser les ressources et garantir la continuité d'activité
+          Infrastructure 100% redondante avec un RTO de 15 minutes, réduction de 40% des coûts de stockage et suppression des silos de données.</p>
+
+        <h3 style="margin-top: 20px">Points clés:</h3>
+        <ul style="margin: 10px 0; padding-left: 20px">
+          <li>🖥️ Cluster VMware vSphere avec 3 hôtes ESXi (HA/DRS activés)</li>
+          <li>📦 Stockage centralisé sur NAS Synology (RAID 6 + SSD Cache)</li>
+          <li>⏱️ Sauvegardes automatisées (Veeam + snapshot Synology)</li>
+          <li>🔄 Migration P2V de 50+ serveurs physiques</li>
+        </ul>
+
+        <div style="text-align: center; margin: 20px 0">
+          <img
+            src="./images/Nas Synologie.jpg"
+            alt="Project Image"
+            style="width: 300px; height: auto"
+          />
+          <p style="font-style: italic; margin-top: 5px; text-align: center">
+            Image liée au projet
+          </p>
+        </div>
+
+        <h3 style="margin-top: 20px">Défis rencontrés:</h3>
+        <ul style="margin: 10px 0; padding-left: 20px">
+          <li>💾 Latence réseau entre vSphere et le NAS (résolu par iSCSI MPIO)</li>
+          <li>🔌 Gestion des licenses VMware (optimisation coûts)</li>
+          <li>📉 Planification des fenêtres de maintenance</li>
+        </ul>
+
+        <h3 style="margin-top: 20px">Axes d'amélioration:</h3>
+        <ul style="margin: 10px 0; padding-left: 20px">
+          <li>🔒 Chiffrement des données au repos (Synology C2 Storage)</li>
+          <li>🤖 Automatisation des déploiements via PowerCLI</li>
+          <li>🌐 Extension en hybride (Azure VMware Solution)</li>
+        </ul>
+
+        <h3 style="margin-top: 20px">Compétences demontrées:</h3>
+        <ul style="margin: 10px 0; padding-left: 20px">
+          <li>✅ VMware vSphere</li>
+          <li>✅ NAS Synology</li>
+          <li>✅ iSCSI/MPIO</li>
+          <li>✅ P2V Migration</li>
+          <li>✅ PowerCLI </li>
+        </ul>
+
+        <!-- Back button at the bottom -->
+        <div class="back-button">
+          <a href="index.html#project" class="button">⬅️ Retour aux Projets</a>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
